@@ -10,7 +10,16 @@
   </head>
 
   <body class="container">
-    
+    <% if notice.present?  %>
+      <aside class="alert alert-info">
+        <%= notice  %>
+      </aside>
+    <% end %> 
+    <% if notice.present?  %>
+      <aside class="alert alert-danger">
+        <%= notice  %>
+      </aside>
+    <% end %> 
     <%= yield %>
 
     <%= javascript_pack_tag "application"  %>
