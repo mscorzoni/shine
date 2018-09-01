@@ -12,6 +12,7 @@ gem 'webpacker', '~> 3.5', '>= 3.5.5'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'foreman', '~> 0.85.0'
+gem 'devise', '~> 4.5'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
